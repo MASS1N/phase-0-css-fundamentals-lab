@@ -2,4 +2,70 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  text-align: center;
+  color: burlywood;
+  
+}
+
+img {
+  display: inline-block;
+  margin: 0 auto;
+  width: 800px;
+}
+
+nav a {
+
+  display: inline-block;
+  padding: 20px;
+  margin: 0 5px;
+  color: black;
+  text-decoration: none;
+}
+
+figcaption {
+  font-size: 14px;
+  text-align: center;
+  color: black;
+  margin-top: 10px;
+}
+
+#featured-property {
+  width: 900px;
+  margin: 20px auto;
+  font-size: medium;
+ 
+}
+
+#featured-property p {
+  text-align: center;
+  font-size:larger;
+  font-style: oblique;
+}
+#details {
+  clear: both;
+}
+
+#details div {
+  float: left;
+  width: 33.33%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+#details div {
+  font-size: small;
+
+}
+
+#bottom-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+#bottom-row div {
+  background-color: #f0f0f0; /* Change the background color to your desired color */
+  width: 25%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 10px 0;
 }
